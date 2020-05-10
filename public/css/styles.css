@@ -1,0 +1,44 @@
+body {
+    color: brown;
+    font-family: cursive;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+h1 {
+    color: chartreuse;
+    font-size: 40px;
+}
+
+footer {
+    color: cyan;
+    border-top: 1px solid #eeeeee;
+    margin-top: 20px;
+    padding: 30px;
+    /* width: auto;
+    padding: 20px;
+    background: gray; */
+}
+
+header {
+    color: indianred;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+header a {
+    color: aqua;
+    font-size: 20px;
+    margin-right: 20px;
+}
